@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1714169776 source:f:\projects\b-system\banksystem\main.cpp
+	<iostream>
+	<string>
+	<Person.h>
+	<Client.h>
+	<Employee.h>
+	<Admin.h>
+
+1714166549 f:\projects\b-system\banksystem\include\person.h
+	<iostream>
+	<string>
+	<Validation.h>
+
+1714166926 f:\projects\b-system\banksystem\include\validation.h
+	<iostream>
+	<string>
+
+1714168051 f:\projects\b-system\banksystem\include\client.h
+	<Person.h>
+	<iterator>
+	<vector>
+
+1714169703 f:\projects\b-system\banksystem\include\employee.h
+	<Person.h>
+
+1714169699 f:\projects\b-system\banksystem\include\admin.h
+	<Employee.h>
+
