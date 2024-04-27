@@ -5,11 +5,19 @@
 #include<Client.h>
 #include<Employee.h>
 #include<Admin.h>
+#include <fstream>
 
 using namespace std;
 
 int main()
 {
+    fstream myfile;
+    myfile.open("client.txt", ios::out);
+    if (myfile.is_open()){
+        myfile << "Mohamed\n";
+        myfile << "Mustafa\n";
+        myfile.close();
+    }
     Person m("asasasas","12121323",1);
 //    m.setId(1);
 //    m.setName("asasasas");
